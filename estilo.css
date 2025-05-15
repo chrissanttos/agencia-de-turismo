@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.base-container{
+    background-image: linear-gradient(to top, #FEEFE1, #F5E4D5,  #E9E3D7, #CFEAE2, #CCEAE8, #CCE8E8);
+}
+
+
+.navbar{
+    height: 80px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.405);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.229);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Garante que o navbar esteja por cima de outros elementos */
+}
+
+
+.nav_link ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+    font-weight: 500;
+}
+
+.navbar .logo{
+    width: 11%;
+    height: 79px;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.header-container .hero-text h1{
+    width: 41rem;
+    font-size: 4rem;
+    padding-top: 90px;
+    margin: 0 90px 0 0;
+}
+
+.hero-text{
+    display: inline-block;
+    align-items:center ;
+    justify-self: center;
+}
+
+
+.header-container .hero-text .btn{
+    background-color: #00A2AC;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 14px;
+    width: 23rem;
+}
+
+.header-container .hero-text .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.image img{
+    padding-top: 40px;
+}
+
+
+.image p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
